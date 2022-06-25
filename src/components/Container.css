@@ -1,0 +1,15 @@
+.container {
+  width: 50%;
+  height: 100%;
+  left: 25%;
+  /* max-width: 840px; */
+  margin: 0 auto;
+  /* background-color: orange; */
+  /* border: 1px solid black; */
+}
+
+/* @media (max-width: 840px) {
+  .container {
+    padding: 0 calc(14px * 5);
+  }
+} */

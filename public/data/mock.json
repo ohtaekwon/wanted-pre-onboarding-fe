@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "profile": "",
+    "userName": "ohtaekwon",
+    "imgUrl": "https://images.unsplash.com/photo-1655289539240-544a6290dd7d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjAxMTgxOA&ixlib=rb-1.2.1&q=80&w=600",
+    "comments": [
+      {
+        "id": 1,
+        "userName": "@elonmusk",
+        "comment": "문신 멋있네요~~",
+        "isUser": false
+      },
+      {
+        "id": 2,
+        "userName": "@bts",
+        "comment": "너무 멋있습니다!!!!!!!!!!",
+        "isUser": false
+      },
+      {
+        "id": 3,
+        "userName": "@SON__7",
+        "comment": "팔로우 신청합니다",
+        "isUser": false
+      },
+      {
+        "id": 4,
+        "userName": "@lilyiu",
+        "comment": "사진 너무 예뻐요",
+        "isUser": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "profile": "",
+    "userName": "WANTED",
+    "imgUrl": "https://images.unsplash.com/photo-1653329899970-355d8f1ed89b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NTk4NTU4Mw&ixlib=rb-1.2.1&q=80&w=600",
+    "comments": [
+      {
+        "id": 1,
+        "userName": "@lilyiu",
+        "comment": "머리 색이 너무 예뻐요",
+        "isUser": false
+      },
+      {
+        "id": 2,
+        "userName": "@bts",
+        "comment": "ㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊ",
+        "isUser": false
+      },
+      {
+        "id": 3,
+        "userName": "@SON__7",
+        "comment": "좋아요!!",
+        "isUser": false
+      },
+      {
+        "id": 4,
+        "userName": "@elonmusk",
+        "comment": "좋아요!!",
+        "isUser": false
+      },
+      {
+        "id": 5,
+        "userName": "@postmalone",
+        "comment": "I love your Hair",
+        "isUser": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "profile": "",
+    "userName": "BlackPink",
+    "imgUrl": "https://images.unsplash.com/photo-1654612870183-e0472a97ff2f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjAxMTc5Mw&ixlib=rb-1.2.1&q=80&w=600",
+    "comments": [
+      {
+        "id": 1,
+        "userName": "@Mark",
+        "comment": "Hellow World",
+        "isUser": false
+      },
+      {
+        "id": 2,
+        "userName": "@lilyiu",
+        "comment": "사진이 너무 멋져요👍",
+        "isUser": false
+      },
+      {
+        "id": 3,
+        "userName": "@TAETAE",
+        "comment": "Goooooooooooood👍",
+        "isUser": false
+      },
+      {
+        "id": 4,
+        "userName": "@cristiano",
+        "comment": "Factos👍 👀",
+        "isUser": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "profile": "",
+    "userName": "WEEKENDS",
+    "imgUrl": "https://images.unsplash.com/photo-1654293991409-fdb711ecf562?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjAxMTg2Ng&ixlib=rb-1.2.1&q=80&w=600",
+    "comments": [
+      {
+        "id": 1,
+        "userName": "@cristiano",
+        "comment": "Siuuuuuuuuuuuu",
+        "isUser": false
+      },
+      {
+        "id": 2,
+        "userName": "@bts",
+        "comment": "Good👍",
+        "isUser": false
+      },
+      {
+        "id": 3,
+        "userName": "SON__7",
+        "comment": "Nice One Sonny",
+        "isUser": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "profile": "",
+    "userName": "I_Am_Groot",
+    "imgUrl": "https://images.unsplash.com/photo-1654534099214-4096f25a683b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NjAxMTkwMw&ixlib=rb-1.2.1&q=80&w=900",
+    "comments": [
+      {
+        "id": 1,
+        "userName": "@Mark",
+        "comment": "👍",
+        "isUser": false
+      },
+      {
+        "id": 2,
+        "userName": "@bts",
+        "comment": "Hi~~~~~Groot",
+        "isUser": false
+      },
+      {
+        "id": 3,
+        "userName": "@SON__7",
+        "comment": "I Am Groot",
+        "isUser": false
+      },
+      {
+        "id": 4,
+        "userName": "@cristiano",
+        "comment": "Groooooooooooot~",
+        "isUser": false
+      }
+    ]
+  }
+]

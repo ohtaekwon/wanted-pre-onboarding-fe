@@ -1,0 +1,9 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 50%;
+  height: 60px;
+  left: 25%;
+  top: 0;
+  margin: 0 auto;
+}
