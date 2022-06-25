@@ -1,5 +1,8 @@
 # :: 원티드 프리온보딩 프론트엔드 코스 사전과제
 
+## My Outputs
+- [master 브랜치 바로가기](https://github.com/ohtaekwon/wanted-pre-onboarding-fe/tree/master)
+
 ## Quick Overview
 
 ```
