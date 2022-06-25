@@ -1,17 +1,20 @@
 import React, { useState, createContext, useEffect } from 'react';
-
 import LoginPage from './pages/LoginPage';
 import './App.css';
+
+// 초기 formState 데이터
 const initialFormData = {
   id: '',
   pw: '',
 };
+// React cotenxt로 전역데이터 관리
 export const FormContext = createContext({
   formState: initialFormData,
   setFormData: () => {},
 });
 
 function App() {
+  // 전역 State
   const [formState, setFormState] = useState(initialFormData);
 
   // 전역 State에 local값 저장
@@ -25,6 +28,7 @@ function App() {
   }, []);
 
   return (
+    // 전역 데이터로 감싸주고, value로 state props을 내려준다.
     <FormContext.Provider value={{ formState, setFormState }}>
       <LoginPage />
     </FormContext.Provider>

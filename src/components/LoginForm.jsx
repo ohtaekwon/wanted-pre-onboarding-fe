@@ -8,11 +8,13 @@ import MainPage from '../pages/MainPage';
 import './LoginForm.css';
 import Background from './Background';
 
+//유효성 검사 통과하면 true , 실패 시 false
 const initialErrorData = {
   id: '',
   pw: '',
 };
 
+// ref
 const initialRefData = {
   refId: '',
   refPw: '',
@@ -21,7 +23,7 @@ const initialRefData = {
 export default function LoginForm(props) {
   const [errorState, setErrorState] = useState(initialErrorData);
   const [refState, setRefState] = useState(initialRefData);
-
+  // local에 저장된 데이터 가져오기
   const getId = localStorage.getItem('id');
   const getPw = localStorage.getItem('pw');
 

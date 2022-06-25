@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+// import './Logo.css';
 export default function Logo(props) {
   const LogoStyle = {
     diplay: 'inline-block',
@@ -23,6 +23,7 @@ export default function Logo(props) {
       <img
         src={process.env.PUBLIC_URL + 'assets/Logo.png'}
         alt="Logo"
+        className="Logo-img"
         style={LogoImage}
       />
     </Link>

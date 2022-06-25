@@ -10,6 +10,44 @@
   margin: auto;
   display: flex;
 }
+.SearchBar .Search.input {
+  position: absolute;
+  width: 268px;
+  height: 100%;
+  padding: 4px 10px; /* 상하 좌우 */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  background-color: #efefef;
+  color: #777;
+  font-size: 13px;
+}
+
+.SearchBar .Search.input:focus + .material-icons {
+  display: none;
+}
+.SearchBar .Search.input:focus::placeholder {
+  color: transparent;
+}
+.SearchBar .material-icons {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -230px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  background-color: #efefef;
+  color: #777;
+  margin: auto;
+}
 @media screen and (max-width: 850px) {
   .SearchBar {
     display: none;
@@ -25,29 +63,6 @@
     margin: auto;
     display: flex;
   }
-}
-.SearchBar .Search.input {
-  position: absolute;
-  width: 268px;
-  height: 100%;
-  padding: 4px 10px; /* 상하 좌우 */
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border-radius: 5px;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  /* outline: none; */
-  border: none;
-  background-color: #efefef;
-  color: #777;
-  /* 전환 효과 : 기본값 all */
-  font-size: 13px;
-  /* transition: width 0.4s; */
-}
-@media screen and (max-width: 850px) {
   .SearchBar input {
     display: none;
 
@@ -71,27 +86,6 @@
     font-size: 13px;
     /* transition: width 0.4s; */
   }
-}
-.SearchBar .Search.input:focus + .material-icons {
-  display: none;
-}
-.SearchBar .Search.input:focus::placeholder {
-  color: transparent;
-}
-.SearchBar .material-icons {
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  left: -230px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  outline: none;
-  background-color: #efefef;
-  color: #777;
-  margin: auto;
-}
-@media screen and (max-width: 850px) {
   .SearchBar button {
     display: none;
     position: absolute;

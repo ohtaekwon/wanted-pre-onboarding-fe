@@ -79,3 +79,8 @@
   right: 0;
   border-radius: 0;
 }
+@media screen and (min-width: 650px) {
+  .FeedListItem-msg .myMsgList {
+    font-size: 12px;
+  }
+}
