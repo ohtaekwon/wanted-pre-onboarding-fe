@@ -1,10 +1,6 @@
 # :: 원티드 프리온보딩 프론트엔드 코스 사전과제
 
-# :: 과제 결과
-
----
-
-<h1>과제 결과물 </h2>
+<h1>:: 과제 결과물 </h2>
 <table>
   <tbody>
     <tr>
@@ -21,6 +17,7 @@
     </tr>
   </tbody>
 </table>
+
 - [DEMO 보러가기](https://react-instargram.netlify.app)
 - [[기록 일지]바로가기](https://blog.naver.com/ohtk92)
 
