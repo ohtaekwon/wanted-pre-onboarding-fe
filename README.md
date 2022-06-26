@@ -1,17 +1,26 @@
 # :: 원티드 프리온보딩 프론트엔드 코스 사전과제
 
-# :: 과제 안내
+# :: 과제 결과
 
 ---
 
-### 1. 로그인 페이지
-
-![로그인 페이지](https://raw.githubusercontent.com/ohtaekwon/OHTK-Portfolio/master/images/instar_main_1.png)
-
-### 2. 메인 페이지
-
-![메인 페이지](https://raw.githubusercontent.com/ohtaekwon/OHTK-Portfolio/master/images/instar_main_2.png)
-
+<h1>과제 결과물 </h2>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="">
+          <img align="center" src="https://raw.githubusercontent.com/ohtaekwon/OHTK-Portfolio/master/images/instar_main_1.png" width="550" alt-text="로그인 페이지" >
+        </a>
+      </td>
+      <td>
+        <a href="">
+          <img align="center" src="https://raw.githubusercontent.com/ohtaekwon/OHTK-Portfolio/master/images/instar_main_2.png" width="550" alt-text="메인페이지">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 - [DEMO 보러가기](https://react-instargram.netlify.app)
 - [[기록 일지]바로가기](https://blog.naver.com/ohtk92)
 
