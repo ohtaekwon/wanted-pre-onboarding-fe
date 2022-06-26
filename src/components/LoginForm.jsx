@@ -1,12 +1,14 @@
-import React, { forwardRef } from 'react';
-import LoginFormInput from './LoginFormInput';
-import { useState } from 'react';
-import { useRef } from 'react';
-import Logo from './Logo';
-
-import MainPage from '../pages/MainPage';
-import './LoginForm.css';
+// LIBRARY
+import React, { useState, forwardRef } from 'react';
+import { Navigate } from 'react-router-dom';
+// COMPOENTNS
 import Background from './Background';
+import LoginFormInput from './LoginFormInput';
+import Logo from './Logo';
+// CSS
+import './LoginForm.css';
+
+// import MainPage from '../pages/MainPage';
 
 //유효성 검사 통과하면 true , 실패 시 false
 const initialErrorData = {
@@ -36,11 +38,10 @@ export default function LoginForm(props) {
       alert('로그인 되었습니다.');
     }
   };
-
   return (
     <>
       {getId && getPw ? (
-        <MainPage />
+        <Navigate to="/home" />
       ) : (
         <>
           <Background />

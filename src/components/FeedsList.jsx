@@ -1,6 +1,7 @@
+// LIBRARY
 import React from 'react';
-import { useEffect } from 'react';
-import { useState, useRef, useContext } from 'react';
+import { useEffect, useState, useRef, useContext } from 'react';
+// CSS
 import './FeedsList.css';
 
 // import FormContext from './FormContext';

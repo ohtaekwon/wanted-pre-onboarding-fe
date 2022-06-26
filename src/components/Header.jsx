@@ -1,5 +1,6 @@
+// LIBRARY
 import React from 'react';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+// COMPONENTS
 import Gnb from './Gnb';
 // CSS
 import './Header.css';

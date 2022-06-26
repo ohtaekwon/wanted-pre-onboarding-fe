@@ -1,4 +1,6 @@
+// LIBRARY
 import React, { useState, useEffect, useRef, useContext } from 'react';
+// CONTEXT
 import { FormContext } from '../App';
 
 import './LoginFormInput.css';

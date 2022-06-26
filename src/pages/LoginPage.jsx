@@ -1,4 +1,6 @@
-import React, { useContext } from 'react';
+// LIBRARY
+import React from 'react';
+// COMPONENTNS
 import Background from '../components/Background';
 import LoginForm from '../components/LoginForm';
 import Sections from '../components/Sections';
@@ -8,7 +10,7 @@ export default function LoginPage(props) {
 
   return (
     <Sections className={className}>
-      {/* <Background /> */}
+      <Background />
       <LoginForm />
     </Sections>
   );

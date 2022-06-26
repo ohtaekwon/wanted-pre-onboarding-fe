@@ -1,5 +1,6 @@
+// LIBRARY
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Navigate, Link } from 'react-router-dom';
 // import './Logo.css';
 export default function Logo(props) {
   const LogoStyle = {

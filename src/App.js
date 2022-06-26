@@ -1,5 +1,10 @@
+// LIBRARY
 import React, { useState, createContext, useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
+// PAGES
 import LoginPage from './pages/LoginPage';
+import MainPage from './pages/MainPage';
+// CSS
 import './App.css';
 
 // 초기 formState 데이터
@@ -30,7 +35,10 @@ function App() {
   return (
     // 전역 데이터로 감싸주고, value로 state props을 내려준다.
     <FormContext.Provider value={{ formState, setFormState }}>
-      <LoginPage />
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/home" element={<MainPage />} />
+      </Routes>
     </FormContext.Provider>
   );
 }

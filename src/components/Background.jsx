@@ -1,6 +1,6 @@
-import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+// LIBRARY
+import React, { useEffect, useState } from 'react';
+// CSS
 import './Background.css';
 
 const bg_images = [

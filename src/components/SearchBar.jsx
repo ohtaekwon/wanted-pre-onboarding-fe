@@ -1,4 +1,6 @@
+// LIBRARY
 import React from 'react';
+// CSS
 import './SearchBar.css';
 
 export default function SearchBar() {

@@ -1,8 +1,10 @@
+// LIBRARY
 import React from 'react';
+import { useState, useEffect } from 'react';
+// COMPONENTS
 import FeedsList from './FeedsList';
+// API
 import { getFeeds } from '../api';
-import { useState } from 'react';
-import { useEffect } from 'react';
 
 // CSS
 import './Feeds.css';

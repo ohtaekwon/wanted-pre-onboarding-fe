@@ -4,7 +4,8 @@
 
 ---
 
-[[기록 일지]바로가기](https://blog.naver.com/ohtk92)
+- [DEMO 보러가기](https://react-instargram.netlify.app)
+- [[기록 일지]바로가기](https://blog.naver.com/ohtk92)
 
 ## Assignment 1 - `Login`
 
