@@ -3,6 +3,13 @@ import React from 'react';
 import { useEffect, useState, useRef, useContext } from 'react';
 // CSS
 import './FeedsList.css';
+import Loading from './Loading';
+
+// 이메일형식에서 아이디만 가려내기
+function ChoosenId(id) {
+  const nextId = id.split('@');
+  return nextId[0];
+}
 
 // import FormContext from './FormContext';
 export default function FeedList({ feed, isLoading }) {
@@ -43,7 +50,7 @@ export default function FeedList({ feed, isLoading }) {
   return (
     <>
       {isLoading ? (
-        <p>로딩중</p>
+        <Loading />
       ) : (
         <div className="FeedListItem">
           <div className="userId">
@@ -74,7 +81,9 @@ export default function FeedList({ feed, isLoading }) {
                   }
                   return (
                     <li key={msg.id}>
-                      {id} : {msg.msg}
+                      <p>
+                        <strong>{ChoosenId(id)}</strong> : {msg.msg}
+                      </p>
                     </li>
                   );
                 })}
