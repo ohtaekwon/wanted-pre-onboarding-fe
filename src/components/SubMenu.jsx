@@ -18,7 +18,7 @@ export default function SubMenu() {
     localStorage.clear();
     navigate('/login');
 
-    window.location.reload();
+    // window.location.reload();
   };
 
   const handleWidht = (screenX) => {
