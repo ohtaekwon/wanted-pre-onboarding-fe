@@ -16,7 +16,7 @@ export default function SubMenu() {
   // 로그아웃버튼 기능 - 클릭시 로그인 페이지로 이동
   const handleLogOutClick = () => {
     localStorage.clear();
-    navigate('/LoginPage');
+    navigate('/login');
 
     window.location.reload();
   };
