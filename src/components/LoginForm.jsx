@@ -41,7 +41,7 @@ export default function LoginForm(props) {
   return (
     <>
       {getId && getPw ? (
-        <Navigate to="/home" />
+        <Navigate to="/" />
       ) : (
         <>
           <Background />

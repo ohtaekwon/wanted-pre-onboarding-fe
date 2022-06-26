@@ -36,8 +36,8 @@ function App() {
     // 전역 데이터로 감싸주고, value로 state props을 내려준다.
     <FormContext.Provider value={{ formState, setFormState }}>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/home" element={<MainPage />} />
+        <Route path="/LoginPage" element={<LoginPage />} />
+        <Route path="/" element={<MainPage />} />
       </Routes>
     </FormContext.Provider>
   );

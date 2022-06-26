@@ -21,6 +21,11 @@
 - [DEMO 보러가기](https://react-instargram.netlify.app)
 - [[기록 일지]바로가기](https://blog.naver.com/ohtk92)
 
+## 로그인 방법
+
+- 아이디 : 이메일형식으로 작성
+- 비밀번호 : 대문자, 숫자, 특수문자 포함 8글자 이상
+
 ## Assignment 1 - `Login`
 
 - 1.1. 구현한 기능
@@ -88,4 +93,5 @@
 - 5.4. 주요 컴포넌트 :
   1. `<Feed/>`: 비동기로 Api.js로 mock.json 파일 불러오기
   2. `<FeedList/>` : 불러온 Promise를 활용하여 랜더링
-  3. `Api.js`
+  3. `<Loading/>` : Feeds부분의 실행전 로딩 컴포넌트 등장
+  4. `Api.js`
