@@ -8,6 +8,7 @@ import { getFeeds } from '../api';
 
 // CSS
 import './Feeds.css';
+import Loading from './Loading';
 export default function Feeds() {
   const [feedState, setFeedState] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -34,18 +35,20 @@ export default function Feeds() {
 
   return (
     <>
-      {/* <button onClick={handleLoad}>버튼</button> */}
-
-      <ul className="FeedList">
-        {feedState &&
-          feedState.map((feed) => {
-            return (
-              <li key={feed.id}>
-                <FeedsList feed={feed} isLoading={isLoading} />
-              </li>
-            );
-          })}
-      </ul>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <ul className="FeedList">
+          {feedState &&
+            feedState.map((feed) => {
+              return (
+                <li key={feed.id}>
+                  <FeedsList feed={feed} isLoading={isLoading} />
+                </li>
+              );
+            })}
+        </ul>
+      )}
       {loadingError?.message && <span>{loadingError.message}</span>}
     </>
   );

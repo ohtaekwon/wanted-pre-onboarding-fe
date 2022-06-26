@@ -1,0 +1,9 @@
+.Loading {
+  top: 50%;
+  bottom: 0;
+  left: 40%;
+  margin: auto;
+  position: absolute;
+  font-size: 80px;
+  font-weight: 900;
+}
