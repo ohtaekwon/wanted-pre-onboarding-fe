@@ -95,3 +95,19 @@
   2. `<FeedList/>` : 불러온 Promise를 활용하여 랜더링
   3. `<Loading/>` : Feeds부분의 실행전 로딩 컴포넌트 등장
   4. `Api.js`
+
+## 에러 이슈
+
+- 정적 서버 배포 사이트인 `netlify`와 같은 사이트에서 새로고침시에 오류가 발생한다.
+
+```
+https://react-instargram.netlify.app/?
+```
+
+- 이처럼, 뒤에 `?`가 붙게 된다. SPA를 만들때 종종 발생하는 오류로 이러한 방법을 대체하기 위해 `Hash` Style로 `HashRouter`를 사용하지만, 이렇게 되면 `#`가 붙게 된다.
+
+```
+https://react-instargram.netlify.app/#/
+```
+
+- 따라서, `#`가 마음에 들지 않고 해결하기 위해서는 ` GuestGuard` 를 활용한다. [참고](https://darrengwon.tistory.com/245)
