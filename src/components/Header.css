@@ -7,3 +7,14 @@ header {
   top: 0;
   margin: 0 auto;
 }
+@media (min-width: 576px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50%;
+    height: 40px;
+    left: 25%;
+    top: 0;
+    margin: 0 auto;
+  }
+}

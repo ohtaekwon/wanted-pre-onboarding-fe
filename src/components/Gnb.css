@@ -22,3 +22,29 @@
   display: block;
   right: 0;
 }
+@media (min-width: 576px) {
+  .Gnb--nav {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 25%;
+    margin: auto;
+    /* background-color: royalblue; */
+  }
+
+  .Gnb--Logo {
+    display: block;
+    left: 0;
+  }
+  .Gnb--SearchBar {
+    display: block;
+    margin: auto;
+  }
+  .Gnb--SubMenu {
+    display: block;
+    right: 0;
+  }
+}
