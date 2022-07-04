@@ -3,11 +3,12 @@ import React from 'react';
 import './Loading.css';
 
 export default function Loading() {
+  const path = process.env.PUBLIC_URL;
+
   return (
     <div className="Loading">
-      <div>
-        <h1>로딩중입니다...^^;</h1>
-      </div>
+      <span> 로딩중입니다..^^;</span>
+      {/* <img src={path + 'assets/Loading.gif'} className="Loading-img" /> */}
     </div>
   );
 }

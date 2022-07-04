@@ -5,7 +5,7 @@ import Background from '../components/Background';
 import LoginForm from '../components/LoginForm';
 import Sections from '../components/Sections';
 
-export default function LoginPage(props) {
+export default function LoginPage() {
   const className = 'sections-wrapper';
 
   return (

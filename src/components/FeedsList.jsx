@@ -44,7 +44,7 @@ export default function FeedList({ feed, isLoading }) {
   };
 
   useEffect(() => {
-    console.log(msgState);
+    console.log('useeffect', msgState);
   }, [msgState]);
 
   return (
