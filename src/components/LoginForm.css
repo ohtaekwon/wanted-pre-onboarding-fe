@@ -2,11 +2,10 @@
   background-color: orange;
   display: block;
 } */
-
+/* 
 .login-form {
   margin: 5% 0;
   position: absolute;
-  /* background-color: orange; */
   width: 70%;
   height: 800px;
   left: 15%;
@@ -14,7 +13,7 @@
   justify-content: center;
   padding: 10%;
   vertical-align: middle;
-}
+} */
 
 input {
   font-size: 20px;

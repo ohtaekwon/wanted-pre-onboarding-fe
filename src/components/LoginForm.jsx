@@ -1,12 +1,11 @@
 // LIBRARY
 import React, { useState, forwardRef } from 'react';
+import styled from 'styled-components';
 import { Navigate } from 'react-router-dom';
 // COMPOENTNS
 import Background from './Background';
 import LoginFormInput from './LoginFormInput';
 import Logo from './Logo';
-// CSS
-import './LoginForm.css';
 
 // import MainPage from '../pages/MainPage';
 
@@ -45,7 +44,7 @@ export default function LoginForm(props) {
       ) : (
         <>
           <Background />
-          <form id="form" className="login-form" onSubmit={handleSubmit}>
+          <Form id="form" onSubmit={handleSubmit}>
             <Logo />
             <LoginFormInput
               id={'id'}
@@ -70,17 +69,36 @@ export default function LoginForm(props) {
               }}
             />
             {errorState.id === true && errorState.pw === true ? (
-              <button id="button" type="submit" className="login-btn">
+              <Button id="button" type="submit">
                 로그인
-              </button>
+              </Button>
             ) : (
-              <button id="button" type="submit" className="login-btn" disabled>
+              <Button id="button" type="submit" disabled>
                 로그인
-              </button>
+              </Button>
             )}
-          </form>
+          </Form>
         </>
       )}
     </>
   );
 }
+
+const Form = styled.form`
+  margin: 5% 0;
+  position: absolute;
+  width: 70%;
+  height: 800px;
+  left: 15%;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 10%;
+  display: block;
+`;
+const Button = styled.button`
+  margin-top: 20px;
+  height: 15%;
+  width: 40%;
+  font-size: 24px;
+`;

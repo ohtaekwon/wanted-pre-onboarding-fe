@@ -1,9 +1,9 @@
 // LIBRARY
 import React, { useState, useEffect, useRef, useContext } from 'react';
+import styled from 'styled-components';
 // CONTEXT
 import { FormContext } from '../App';
 
-import './LoginFormInput.css';
 const ID_REGX = new RegExp(
   '^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$'
 ); // 5~20자. 영문 소문자, 숫자. 특수기호(_),(-)만 사용 가능
@@ -69,17 +69,23 @@ export default function LoginFormInput({
 
   return (
     <>
-      <div className="input-sections">
-        <input
-          id={id}
-          ref={inputRef}
-          className={ERROR_STATION[errorState[id]]}
-          value={formState[id]}
-          onChange={(e) => setFormState({ ...formState, [id]: e.target.value })}
-          onBlur={checkValidation}
-          {...inputProps}
-        />
-      </div>
+      <Input
+        id={id}
+        ref={inputRef}
+        className={ERROR_STATION[errorState[id]]}
+        value={formState[id]}
+        onChange={(e) => setFormState({ ...formState, [id]: e.target.value })}
+        onBlur={checkValidation}
+        {...inputProps}
+      />
     </>
   );
 }
+const Input = styled.input`
+  font-size: 20px;
+  border: 1px solid black;
+  height: 80px;
+  width: 40%;
+  display: block;
+  margin: 20px auto;
+`;
