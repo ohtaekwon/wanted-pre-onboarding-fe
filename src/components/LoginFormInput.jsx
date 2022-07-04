@@ -1,6 +1,6 @@
 // LIBRARY
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 // CONTEXT
 import { FormContext } from '../App';
 
@@ -72,7 +72,7 @@ export default function LoginFormInput({
       <Input
         id={id}
         ref={inputRef}
-        className={ERROR_STATION[errorState[id]]}
+        errorStation={ERROR_STATION[errorState[id]]}
         value={formState[id]}
         onChange={(e) => setFormState({ ...formState, [id]: e.target.value })}
         onBlur={checkValidation}
@@ -88,4 +88,9 @@ const Input = styled.input`
   width: 40%;
   display: block;
   margin: 20px auto;
+  ${(props) =>
+    props.errorStation &&
+    css`
+      border: 2px solid red;
+    `};
 `;
